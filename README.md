@@ -28,3 +28,4 @@
   </dependencies>
 ```
 ###### 3. Commit and Push on Git
+###### 4. Create AppUser Class
