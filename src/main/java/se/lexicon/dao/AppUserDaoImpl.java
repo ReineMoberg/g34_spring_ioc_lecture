@@ -1,5 +1,6 @@
 package se.lexicon.dao;
 
+import org.springframework.stereotype.Component;
 import se.lexicon.dao.sequencer.AppUserSequencer;
 import se.lexicon.model.AppUser;
 
@@ -7,6 +8,7 @@ import java.util.HashSet;
 import java.util.Optional;
 import java.util.Set;
 
+@Component("userAppDao")
 public class AppUserDaoImpl implements AppUserDao{
 
     private Set<AppUser> appUsers= new HashSet<>();
